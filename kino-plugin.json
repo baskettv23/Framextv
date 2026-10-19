@@ -1,0 +1,35 @@
+{
+  "id": "framextv",
+  "name": "FrameXTV",
+  "version": "0.1.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Películas y series de frameXTV: servidores CineJoy y Movy, hasta en 4K, en tu idioma",
+  "author": "baskettv23",
+  "homepage": "https://github.com/baskettv23/kino-plugin-framextv",
+  "hosts": [
+    "enc-dec.app",
+    "api.wing.st",
+    "api.wecollege.net",
+    "hybrows.workers.dev",
+    "*.hybrows.workers.dev",
+    "api.themoviedb.org"
+  ],
+  "capabilities": [
+    "search",
+    "home",
+    "browse",
+    "episodes",
+    "resolve",
+    "download"
+  ],
+  "settings": [
+    {
+      "key": "tmdbKey",
+      "label": "Tu llave de TMDB",
+      "type": "text",
+      "hint": "Opcional, solo para Kino viejo: pega tu clave de themoviedb.org"
+    }
+  ]
+}
